@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    line-height: 1.6;
+}
+
+.nav{
+    height: 5rem;
+    background-color: #222;
+    padding: 1rem 0;
+}
+
+.nav-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.nav-title:hover{
+    color:#dad4d4;
+}
+
+.nav-center{
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.425),
+      rgba(0, 0, 0, 0.596)
+    ),
+    url("./img/dogs.jpg") center/cover;
+    min-height: calc(100vh - 5rem);
+    
+}
+
+.hero-center{
+    width: 90vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.hero-center h1{
+    letter-spacing: 10px ;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.hero-center p {
+    max-width: 33em;
+    margin-bottom: 1.5rem;
+}
+
+.hero-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    transition: .3s ease;
+}
+
+.hero-btn:hover{
+    background-color: #fff;
+    color: #222;
+}
